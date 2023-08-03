@@ -5,8 +5,11 @@ VisualStudioVersion = 17.6.33723.286
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UseCase2", "UseCase2\UseCase2.csproj", "{F7C009ED-0E58-4ACF-B206-6AED2A34DFCC}"
 EndProject
+<<<<<<< HEAD
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UseCase2Test", "UseCase2Test\UseCase2Test.csproj", "{493CDD4D-F1C0-4BE1-85FD-55BA421817FD}"
 EndProject
+=======
+>>>>>>> 0d54cb6 (UC#2 Create list balance endpoint)
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,10 +20,13 @@ Global
 		{F7C009ED-0E58-4ACF-B206-6AED2A34DFCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F7C009ED-0E58-4ACF-B206-6AED2A34DFCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F7C009ED-0E58-4ACF-B206-6AED2A34DFCC}.Release|Any CPU.Build.0 = Release|Any CPU
+<<<<<<< HEAD
 		{493CDD4D-F1C0-4BE1-85FD-55BA421817FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{493CDD4D-F1C0-4BE1-85FD-55BA421817FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{493CDD4D-F1C0-4BE1-85FD-55BA421817FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{493CDD4D-F1C0-4BE1-85FD-55BA421817FD}.Release|Any CPU.Build.0 = Release|Any CPU
+=======
+>>>>>>> 0d54cb6 (UC#2 Create list balance endpoint)
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -29,8 +29,13 @@ namespace UseCase2.Controllers
                 {
                     var returnBalance = new Models.Balance()
                     {
+<<<<<<< HEAD
                         AvailableFunds = balance.Available.GroupBy(x => x.Currency).ToDictionary(x => x.Key, x => (float) x.Sum(s => s.Amount) / 100),
                         PendingFunds = balance.Pending.GroupBy(x => x.Currency).ToDictionary(x => x.Key, x => (float) x.Sum(s => s.Amount) / 100)
+=======
+                        AvailableFunds = balance.Available.GroupBy(x => x.Currency).ToDictionary(x => x.Key, x => x.Sum(s => s.Amount) / 100),
+                        PendingFunds = balance.Pending.GroupBy(x => x.Currency).ToDictionary(x => x.Key, x => x.Sum(s => s.Amount) / 100)
+>>>>>>> 0d54cb6 (UC#2 Create list balance endpoint)
                     };
                     return Ok(returnBalance);
                 }
@@ -54,6 +59,7 @@ namespace UseCase2.Controllers
                 return StatusCode(500, $"Internal server error: {ex}");
             }
         }
+<<<<<<< HEAD
 
         [HttpGet("transactions")]
         public IActionResult GetBalanceTransactions(int limit = 100, string? startingAfter = null)
@@ -108,5 +114,7 @@ namespace UseCase2.Controllers
                 return StatusCode(500, $"Internal server error: {ex}");
             }
         }
+=======
+>>>>>>> 0d54cb6 (UC#2 Create list balance endpoint)
     }
 }
