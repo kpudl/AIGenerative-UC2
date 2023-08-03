@@ -2,8 +2,8 @@
 {
     public class Balance
     {
-        public Dictionary<string, long> AvailableFunds { get; set; }
+        public Dictionary<string, float> AvailableFunds { get; set; }
 
-        public Dictionary<string, long> PendingFunds { get; set; }
+        public Dictionary<string, float> PendingFunds { get; set; }
     }
 }
